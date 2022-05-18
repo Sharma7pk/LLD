@@ -14,7 +14,7 @@ public class StockExchangeApplication {
 
         //File location should come from input
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Input File Location : ");
+        System.out.println("Input File Location Absolute Path: ");
         String fileLocation = scanner.nextLine();
         getSellOrderFromFile(fileLocation);
     }

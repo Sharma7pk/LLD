@@ -1,40 +1,47 @@
 package dao;
 
+import java.util.Objects;
+import java.util.PriorityQueue;
 import model.BuyOrder;
 import model.SellOrder;
 
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.PriorityQueue;
-
 /*
-This Dao maintains the Sell order in the queue based on the comparator
+This Dao maintains the Sell and Buy order in priority queues
  */
 public class StockExchangeDao {
 
-    private PriorityQueue<SellOrder> sellOrderPriorityQueue = new PriorityQueue<>(new Comparator<SellOrder>() {
-        @Override
-        public int compare(SellOrder o1, SellOrder o2) {
+    private final PriorityQueue<SellOrder> sellOrderPriorityQueue = new PriorityQueue<>(
+        (o1, o2) -> {
             // if same price return the more quantity
-            if (o1.getPrice() == o2.getPrice()) {
+            if (Objects.equals(o1.getPrice(), o2.getPrice())) {
                 return o2.getQuantity() - o1.getQuantity();
             }
             return Double.compare(o1.getPrice(), o2.getPrice());
-        }
-    });
+        });
 
-    private ArrayList<BuyOrder> executedBuyOrder = new ArrayList<>();
+    private final PriorityQueue<BuyOrder> buyOrderPriorityQueue = new PriorityQueue<>(
+        (o1, o2) -> {
+            // if same price return the more quantity
+            if (Objects.equals(o1.getPrice(), o2.getPrice())) {
+                return o2.getQuantity() - o1.getQuantity();
+            }
+            return Double.compare(o1.getPrice(), o2.getPrice());
+        });
 
     public PriorityQueue<SellOrder> getSellOrderPriorityQueue() {
         return sellOrderPriorityQueue;
+    }
+
+    public PriorityQueue<BuyOrder> getBuyOrderPriorityQueue() {
+        return buyOrderPriorityQueue;
     }
 
     public void addSellOrder(SellOrder order) {
         sellOrderPriorityQueue.add(order);
     }
 
-    private void addCompletedOrder(BuyOrder order) {
-        executedBuyOrder.add(order);
+    public void addBuyOrder(BuyOrder order) {
+        buyOrderPriorityQueue.add(order);
     }
 
 }

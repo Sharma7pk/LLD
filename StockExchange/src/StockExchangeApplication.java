@@ -9,26 +9,26 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class StockExchangeApplication {
-    public static void main(String[] args) {
 
-        // inputs provide in the code,
+    private static final String BUY = "buy";
+    private static final String SELL = "sell";
+
+    public static void main(String[] args) throws FileNotFoundException {
+
+        //File location should come from input
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Input File Location : ");
+        String fileLocation = scanner.nextLine();
         StockExchangeService service = new StockExchangeServiceImpl();
         ArrayList<SellOrder> list = new ArrayList<>();
-//        getSellOrderFromFile(list);
-        service.addSellOrder("#1","BAC",240.12,100, LocalTime.now());
-        service.addSellOrder("#2","BAC",237.45,90, LocalTime.now());
-        service.addSellOrder("#6","BAC",236.00,50, LocalTime.now());
-
-
-        service.matchAndExecuteBuyOrder("#3","BAC",238.10,110,LocalTime.now());
-        service.matchAndExecuteBuyOrder("#4","BAC",237.80 ,10,LocalTime.now());
-        service.matchAndExecuteBuyOrder("#5","BAC",237.80 ,40,LocalTime.now());
-
+        getSellOrderFromFile(fileLocation);
     }
 
-    private static void getSellOrderFromFile(ArrayList<SellOrder> list) throws FileNotFoundException {
-        File ordersFile = new File("data.txt");
+    private static void getSellOrderFromFile(String fileLocation) throws FileNotFoundException {
+        StockExchangeService service = new StockExchangeServiceImpl();
+        File ordersFile = new File(fileLocation);
         Scanner scanner = new Scanner(ordersFile);
+
         while (scanner.hasNextLine()) {
             String[] data = scanner.nextLine().split(" ");
             String orderId = data[0];
@@ -37,11 +37,11 @@ public class StockExchangeApplication {
             String type = data[3];
             Double price = Double.parseDouble(data[4]);
             int quantity = Integer.parseInt(data[5]);
-            if (type.equals("buy")) {
-                // call the respective function
+            if (type.equals(BUY)) {
+                service.matchAndExecuteBuyOrder(orderId, stock, price, quantity, time);
             }
-            if (type.equals("sell")) {
-                // call the respective function
+            if (type.equals(SELL)) {
+                service.matchAndExecuteSellOrder(orderId, stock, price, quantity, time);
             }
         }
     }

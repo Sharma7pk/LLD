@@ -5,7 +5,7 @@ import dao.StockExchangeDao;
 import model.BuyOrder;
 import model.OrderFactory;
 import model.SellOrder;
-import util.ExecuteOrders;
+import util.PrintOrders;
 
 import java.time.LocalTime;
 import java.util.ArrayList;
@@ -15,7 +15,7 @@ import java.util.PriorityQueue;
 public class StockExchangeServiceImpl implements StockExchangeService {
 
     StockExchangeDao stockExchangeDao = new StockExchangeDao();
-    ExecuteOrders ui = new ExecuteOrders();
+    PrintOrders ui = new PrintOrders();
 
     @Override
     public void matchAndExecuteSellOrder(String orderId, String stockName, Double price, int quantity, LocalTime time) {

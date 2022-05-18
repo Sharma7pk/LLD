@@ -1,8 +1,8 @@
 model/OrderFactory.class
 model/Order.class
 service/StockExchangeServiceImpl.class
-StockExchangeApplication.class
 constants/OrderType.class
+Geektrust.class
 service/StockExchangeService.class
 dao/StockExchangeDao.class
 util/ExecuteOrders.class

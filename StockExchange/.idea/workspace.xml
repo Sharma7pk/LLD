@@ -20,40 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f92e34dc-a316-4f22-9e50-65cc64da2477" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_all_1_10_19.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StockExchangeServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Navi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Navi.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Navi/StockExchangeApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Navi/constants/OrderType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Navi/dao/StockExchangeDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Navi/model/BuyOrder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Navi/model/Order.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Navi/model/OrderFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Navi/model/SellOrder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Navi/service/StockExchangeService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Navi/service/StockExchangeServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Navi/util/ExecuteOrders.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StockExchangeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StockExchangeApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constants/OrderType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/constants/OrderType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dao/StockExchangeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/StockExchangeDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/BuyOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/BuyOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/OrderFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/OrderFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/SellOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/SellOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/StockExchangeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/StockExchangeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/StockExchangeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/StockExchangeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/ExecuteOrders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/ExecuteOrders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StockExchangeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Geektrust.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/StockExchangeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/StockExchangeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/ExecuteOrders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/PrintOrders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Navi-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/Navi-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/StockExchangeApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/geektrust.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/geektrust.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/Navi.kotlin_module" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +82,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -110,13 +90,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StockExchangeApplication">
-    <configuration name="StockExchangeApplication" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StockExchangeApplication" />
+  <component name="RunManager" selected="Application.Geektrust">
+    <configuration name="Geektrust" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Geektrust" />
       <module name="Navi" />
+      <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/src/main/java/data.txt" />
       <extension name="net.ashald.envfile">
         <option name="IS_ENABLED" value="false" />
         <option name="IS_SUBST" value="false" />
@@ -151,6 +133,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Geektrust" />
+      <item itemvalue="JUnit.StockExchangeServiceTest.testMatchAndExecuteBuyOrder" />
+      <item itemvalue="JUnit.StockExchangeServiceTest.testMatchAndExecuteSellOrder" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.StockExchangeServiceTest.testMatchAndExecuteSellOrder" />
@@ -188,30 +175,34 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="184" y="90" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1652846482783">
+      <screen x="0" y="25" width="1440" height="813" />
+    </state>
+    <state x="184" y="90" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.813@0.25.1440.813" timestamp="1652846482783" />
     <state x="447" y="124" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1652843036115">
       <screen x="0" y="25" width="1440" height="813" />
     </state>
     <state x="447" y="124" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.25.1440.813@0.25.1440.813" timestamp="1652843036115" />
-    <state width="1398" height="195" key="GridCell.Tab.0.bottom" timestamp="1652845335501">
+    <state width="1398" height="195" key="GridCell.Tab.0.bottom" timestamp="1652847023798">
       <screen x="0" y="25" width="1440" height="813" />
     </state>
     <state width="1398" height="238" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1652779847103" />
-    <state width="1398" height="195" key="GridCell.Tab.0.bottom/0.25.1440.813@0.25.1440.813" timestamp="1652845335501" />
-    <state width="1398" height="195" key="GridCell.Tab.0.center" timestamp="1652845335500">
+    <state width="1398" height="195" key="GridCell.Tab.0.bottom/0.25.1440.813@0.25.1440.813" timestamp="1652847023798" />
+    <state width="1398" height="195" key="GridCell.Tab.0.center" timestamp="1652847023797">
       <screen x="0" y="25" width="1440" height="813" />
     </state>
     <state width="1398" height="238" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1652779847101" />
-    <state width="1398" height="195" key="GridCell.Tab.0.center/0.25.1440.813@0.25.1440.813" timestamp="1652845335500" />
-    <state width="1398" height="195" key="GridCell.Tab.0.left" timestamp="1652845335500">
+    <state width="1398" height="195" key="GridCell.Tab.0.center/0.25.1440.813@0.25.1440.813" timestamp="1652847023797" />
+    <state width="1398" height="195" key="GridCell.Tab.0.left" timestamp="1652847023797">
       <screen x="0" y="25" width="1440" height="813" />
     </state>
     <state width="1398" height="238" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1652779847100" />
-    <state width="1398" height="195" key="GridCell.Tab.0.left/0.25.1440.813@0.25.1440.813" timestamp="1652845335500" />
-    <state width="1398" height="195" key="GridCell.Tab.0.right" timestamp="1652845335501">
+    <state width="1398" height="195" key="GridCell.Tab.0.left/0.25.1440.813@0.25.1440.813" timestamp="1652847023797" />
+    <state width="1398" height="195" key="GridCell.Tab.0.right" timestamp="1652847023797">
       <screen x="0" y="25" width="1440" height="813" />
     </state>
     <state width="1398" height="238" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1652779847102" />
-    <state width="1398" height="195" key="GridCell.Tab.0.right/0.25.1440.813@0.25.1440.813" timestamp="1652845335501" />
+    <state width="1398" height="195" key="GridCell.Tab.0.right/0.25.1440.813@0.25.1440.813" timestamp="1652847023797" />
     <state width="1398" height="248" key="GridCell.Tab.1.bottom" timestamp="1652845165432">
       <screen x="0" y="25" width="1440" height="813" />
     </state>
@@ -228,47 +219,10 @@
       <screen x="0" y="25" width="1440" height="813" />
     </state>
     <state width="1398" height="248" key="GridCell.Tab.1.right/0.25.1440.813@0.25.1440.813" timestamp="1652845165431" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/StockExchangeApplication.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="50" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/StockExchangeApplication.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="51" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/service/StockExchangeServiceImpl.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="52" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/service/StockExchangeServiceImpl.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="53" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/service/StockExchangeServiceImpl.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="54" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/service/StockExchangeServiceImpl.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="55" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/dao/StockExchangeDao.java</url>
-          <line>39</line>
-          <option name="timeStamp" value="56" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="421" y="186" width="597" height="490" key="find.popup" timestamp="1652845770336">
+      <screen x="0" y="25" width="1440" height="813" />
+    </state>
+    <state x="421" y="186" width="597" height="490" key="find.popup/0.25.1440.813@0.25.1440.813" timestamp="1652845770336" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/StockExchange$StockExchangeApplication.ic" NAME="StockExchangeApplication Coverage Results" MODIFIED="1631603468786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

@@ -1,12 +1,9 @@
-import model.SellOrder;
-import service.StockExchangeService;
-import service.StockExchangeServiceImpl;
-
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.time.LocalTime;
-import java.util.ArrayList;
 import java.util.Scanner;
+import service.StockExchangeService;
+import service.StockExchangeServiceImpl;
 
 public class StockExchangeApplication {
 
@@ -19,8 +16,6 @@ public class StockExchangeApplication {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Input File Location : ");
         String fileLocation = scanner.nextLine();
-        StockExchangeService service = new StockExchangeServiceImpl();
-        ArrayList<SellOrder> list = new ArrayList<>();
         getSellOrderFromFile(fileLocation);
     }
 
